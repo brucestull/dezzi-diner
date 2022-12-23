@@ -18,5 +18,4 @@ class CustomUserChangeForm(UserChangeForm):
         fields = (
             'username',
             'email',
-            'is_superuser',
         )
