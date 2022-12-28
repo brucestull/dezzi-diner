@@ -88,10 +88,3 @@
 ## Repository Links
 
 * Repository [`README.md`](../README.md).
-
-django = "==4.0.7"
-docutils = "==0.19"
-gunicorn = "==20.1.0"
-whitenoise = "==6.1.0"
-psycopg2 = "==2.9.3"
-tzdata = "*"
