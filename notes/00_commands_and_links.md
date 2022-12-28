@@ -9,6 +9,7 @@
 1. `python manage.py migrate accounts`
 1. `python manage.py migrate`
 1. `python manage.py createsuperuser --email admin@email.app --username admin`
+1. `python manage.py createsuperuser --email FlynntKnapp@email.app --username FlynntKnapp`
 
 ### `pipenv`
 
@@ -87,3 +88,10 @@
 ## Repository Links
 
 * Repository [`README.md`](../README.md).
+
+django = "==4.0.7"
+docutils = "==0.19"
+gunicorn = "==20.1.0"
+whitenoise = "==6.1.0"
+psycopg2 = "==2.9.3"
+tzdata = "*"

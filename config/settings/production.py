@@ -1,4 +1,4 @@
-from my_current_project.settings.common import *
+from config.settings.common import *
 
 import os
 
@@ -12,7 +12,6 @@ ALLOWED_HOSTS = ['flynnt-knapp-test-app.herokuapp.com']
 MIDDLEWARE = MIDDLEWARE + ['whitenoise.middleware.WhiteNoiseMiddleware']
 
 
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 
